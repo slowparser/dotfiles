@@ -21,12 +21,12 @@ config.use_resize_increments = false
 
 config.font = wezterm.font("Iosevka")
 config.font_size = 17
--- For example, changing the color scheme:
+
 -- config.color_scheme = "kanagawabones"
 -- config.color_scheme = "Horizon Dark (Gogh)"
-config.color_scheme = "Grayscale (dark) (terminal.sexy)"
+-- config.color_scheme = "Grayscale (dark) (terminal.sexy)"
 -- config.color_scheme = "Mocha (light) (terminal.sexy)"
 -- config.color_scheme = "Gruvbox Material (Gogh)"
+config.color_scheme = "Catppuccin Mocha"
 
--- and finally, return the configuration to wezterm
 return config
