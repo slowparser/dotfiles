@@ -14,7 +14,7 @@ final_space = true
 
   [[blocks.segments]]
     style = 'plain'
-    template = ' {{ .Path }}'
+    template = ' 󰣇 {{ .Path }}'
     type = 'path'
 
     [blocks.segments.properties]
