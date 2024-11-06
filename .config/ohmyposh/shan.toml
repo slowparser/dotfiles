@@ -3,7 +3,7 @@ version = 3
 final_space = true
 
 [transient_prompt]
-  template = ' ❯ '
+  template = '❯ '
   background = 'transparent'
   foreground_templates = ['{{if gt .Code 0}}red{{end}}']
 
@@ -14,7 +14,7 @@ final_space = true
 
   [[blocks.segments]]
     style = 'plain'
-    template = ' 󰣇 {{ .Path }}'
+    template = '󰣇 {{ .Path }}'
     type = 'path'
 
     [blocks.segments.properties]
@@ -39,6 +39,6 @@ final_space = true
 
   [[blocks.segments]]
     style = 'plain'
-    template = ' ❯'
+    template = '❯'
     background = 'transparent'
     type = 'text'

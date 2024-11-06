@@ -15,4 +15,3 @@ opt.relativenumber = true
 opt.termguicolors = true
 
 require("config.lazy")
-require('lualine').setup()

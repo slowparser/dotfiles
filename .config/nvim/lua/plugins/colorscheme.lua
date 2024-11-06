@@ -1,9 +1,9 @@
 return { 
-  --'kdheepak/monochrome.nvim',
+  'kdheepak/monochrome.nvim',
   -- "ellisonleao/gruvbox.nvim", 
-  "catppuccin/nvim",
+  -- "catppuccin/nvim",
   priority = 1000,
   config = function()
-    vim.cmd("colorscheme catppuccin")
+    vim.cmd("colorscheme monochrome")
   end
 }
