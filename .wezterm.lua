@@ -1,10 +1,7 @@
--- Pull in the wezterm API
 local wezterm = require("wezterm")
 
--- This will hold the configuration.
 local config = wezterm.config_builder()
 
--- This is where you actually apply your config choices
 config.window_decorations = "NONE"
 config.window_padding = {
 	left = 10,
@@ -24,9 +21,11 @@ config.font_size = 17
 
 -- config.color_scheme = "kanagawabones"
 -- config.color_scheme = "Horizon Dark (Gogh)"
-config.color_scheme = "Grayscale (dark) (terminal.sexy)"
+-- config.color_scheme = "Grayscale (dark) (terminal.sexy)"
+-- config.color_scheme = 'Arthur'
+-- config.color_scheme = 'rose-pine'
 -- config.color_scheme = "Mocha (light) (terminal.sexy)"
--- config.color_scheme = "Gruvbox Material (Gogh)"
+config.color_scheme = "Gruvbox Material (Gogh)"
 -- config.color_scheme = "Catppuccin Mocha"
 
 return config
