@@ -6,8 +6,8 @@ config.window_decorations = "NONE"
 config.window_padding = {
 	left = 10,
 	right = 10,
-	top = 0,
-	bottom = 0,
+	top = 5,
+	bottom = 5,
 }
 config.window_background_opacity = 1
 config.enable_tab_bar = false

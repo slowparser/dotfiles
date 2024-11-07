@@ -14,7 +14,7 @@ final_space = true
 
   [[blocks.segments]]
     style = 'plain'
-    template = '󰣇 {{ .Path }}'
+    template = '{{ .Path }} '
     type = 'path'
 
     [blocks.segments.properties]
@@ -22,7 +22,7 @@ final_space = true
 
   [[blocks.segments]]
     style = 'plain'
-    template = ' [{{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }}*{{ end }}] <cyan>{{ if gt .Behind 0 }}⇣{{ end }}{{ if gt .Ahead 0 }}⇡{{ end }}</>'
+    template = '[{{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }}*{{ end }}] <cyan>{{ if gt .Behind 0 }}⇣{{ end }}{{ if gt .Ahead 0 }}⇡{{ end }}</>'
     foreground = '#7d7d7d'
     background = 'transparent'
     type = 'git'
@@ -31,11 +31,6 @@ final_space = true
       branch_icon = ''
       commit_icon = '@'
       fetch_status = true
-
-[[blocks]]
-  type = 'prompt'
-  alignment = 'left'
-  newline = true
 
   [[blocks.segments]]
     style = 'plain'
