@@ -104,4 +104,4 @@ alias ls='lsd'
 alias vim='nvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/shan.toml)"
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/zen.toml)"

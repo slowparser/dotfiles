@@ -30,7 +30,6 @@ return {
     })
     
     local keymap = vim.keymap
-    
     keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>")
     keymap.set("n", "<leader>ef", "<cmd>NvimTreeFindToggle<CR>")
     keymap.set("n", "<leader>ec", "<cmd>NvimTreeCollapse<CR>")
